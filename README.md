@@ -20,7 +20,7 @@ and automate repetitive work.
 | Adobe Certified Expert: AEM Sites Developer | 2025 |
 | Adobe Certified Expert: AEM DevOps Engineer | 2025 |
 | Adobe Certified Professional: AEM Business Practitioner | 2023 |
-| Microsoft Certified: Azure Fundamentals (AZ-900) | — |
+| Microsoft Certified: Azure Fundamentals (AZ-900) | 2022 |
 
 ### 🛠️ Tech I work with
 
