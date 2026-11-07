@@ -61,13 +61,13 @@ and automate repetitive work.
 | Project | What it does | Stack |
 |---|---|---|
 | [**aem-log-analyzer**](https://github.com/navi00498/aem-log-analyzer) | Turns AEM `error.log`/`request.log` into a prioritized findings report: OOMs, Oak traversals, leaked resolvers, 5xx and latency percentiles. Text, JSON and HTML output, plus a `--fail-on` CI gate. | Python · GitHub Actions |
+| [**aem-troubleshooting-mcp-server**](https://github.com/navi00498/aem-troubleshooting-mcp-server) | Model Context Protocol server that gives AI assistants (Copilot, Claude, VS Code) 11 **read-only** AEM diagnostic tools: bundle and component health, replication queues, Sling jobs, Oak indexes, slow queries and log triage. Ships with a mock AEM for safe demos. | Python · MCP · AEM |
+| [**k8s-observability-stack**](https://github.com/navi00498/k8s-observability-stack) | One-command Kubernetes observability lab: Prometheus **multi-window SLO burn-rate alerts** (promtool unit-tested), Grafana dashboards as code, Loki + Alloy logs and runbooks. CI spins up kind, injects failures and asserts the page reaches Alertmanager. | Kubernetes · Prometheus · Grafana · Loki · Helm |
 
 ### 🗺️ Coming next
 
 - **aem-dispatcher-cdn-lab**: Docker lab for Dispatcher caching, filters and CDN cache-control headers
 - **cloud-manager-pipeline-notifier**: Adobe I/O Events webhook that posts Cloud Manager pipeline status to Slack/Teams
-- **k8s-observability-stack**: Kubernetes + Prometheus + Grafana + Loki stack with SLO dashboards and alerts
-- **aem-troubleshooting-mcp-server**: MCP server that lets AI assistants run AEM diagnostics
 - **jvm-dump-triage**: thread-dump analyzer for blocked threads and hot stacks
 
 <sub>Personal projects, built from public documentation. Not affiliated with my employer.</sub>
